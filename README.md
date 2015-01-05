@@ -1,5 +1,5 @@
 SportsApp
 =========
-
-Java for Android
-Objective-C for iOS
+Developers:
+Peyt Spencer Dewar II
+Hugh Anthony Miles II
