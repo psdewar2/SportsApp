@@ -35,7 +35,7 @@
             android:layout_height="wrap_content"
             android:text="@string/ftball"
             android:background="@android:color/holo_red_light"
-            android:textColor="@android:color/black"
+            android:textColor="@android:color/white"
             android:textAllCaps="false"
             tools:ignore="UnusedAttribute"
             android:layout_marginBottom="15dp"/>
