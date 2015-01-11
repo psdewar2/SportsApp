@@ -1,21 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/frame">
 
-    <TextView
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Map View"
-        android:id="@+id/textView"
-        android:layout_gravity="center_horizontal" />
+        android:text="My Profile"
+        android:id="@+id/profile_button"
+        android:layout_gravity="left|top" />
 
-    <TextView
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="will go here"
-        android:id="@+id/textView2"
-        android:layout_gravity="center_horizontal" />
-</LinearLayout>
+        android:text="Map"
+        android:id="@+id/map_button"
+        android:layout_gravity="center|top" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List"
+        android:id="@+id/list_button"
+        android:layout_gravity="right|top" />
+
+
+</FrameLayout>

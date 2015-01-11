@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_above="@+id/linearLayout2"
+        android:layout_centerHorizontal="true" >
+
+        <TextView
+            android:id="@+id/hello"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/hello" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:weightSum="1" >
+
+        <TextView
+            android:id="@+id/intro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/intro" />
+
+        <Button
+            android:id="@+id/bball"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:background="@android:color/holo_orange_dark"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            tools:ignore="UnusedAttribute"
+            android:text="@string/bball" />
+
+        <Button
+            android:id="@+id/ftball"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:background="@android:color/holo_red_light"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            tools:ignore="UnusedAttribute"
+            android:text="@string/ftball" />
+
+        <Button
+            android:id="@+id/sccr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:background="@android:color/white"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            tools:ignore="UnusedAttribute"
+            android:text="@string/sccr" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/logout_button"
+        style="@style/ParseLoginUI.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/logout"/>
+
+</RelativeLayout>

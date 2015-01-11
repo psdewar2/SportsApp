@@ -2,12 +2,14 @@
 <resources>
 
     <string name="app_name">Sports App</string>
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="parse_app_id">O4Cowo2OVUPXQwhBmohlbxwtSDvSiF1GHBqHCap2</string>
     <string name="parse_client_key">fuQ5hFZ5OdTeP240OfS2o9ANSk6eSUZ5kvv9jLf1</string>
+    <string name="hello">Hello,&#160;</string>
     <string name="intro">Pick a sport!</string>
     <string name="bball">Basketball</string>
     <string name="ftball">Football</string>
     <string name="sccr">Soccer</string>
+    <string name="logout">Logout</string>
+
 </resources>
